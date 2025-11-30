@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Blog-inner</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      .hero-img-box {
+        background: #eaf1f9;
+        padding: 30px;
+        border-radius: 12px;
+      }
+      .hero-img {
+        border-radius: 12px;
+        animation: float 4s ease-in-out infinite;
+      }
+      @keyframes float {
+        0% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-12px);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+      .service-card {
+        border-radius: 12px;
+      }
+    </style>
+
+    <body>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4">Finsweet</a>
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item mx-2">
+                <a href="../pages/AboutUs.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../pages/services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../pages/careers.html" class="nav-link">Careers</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../pages/blog.html" class="nav-link">Blog</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../pages/blog-inner.html" class="nav-link"
+                  >Blog-inner</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a href="../pages/pravicy-policy.html" class="nav-link"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+
+            <button class="btn btn-warning ms-lg-3 px-4">Get in touch</button>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="fw-bold mt-5">Testing Engineer</h1>
+        <div
+          class="save d-flex gap-2 align-items-center mt-3 justify-content-between"
+        >
+          <div class="map py-5">
+            <h5>Job Discription</h5>
+            <h6 class="text-dark-emphasis">
+              Remote, India , 4 to 5 Years Of Experience Department: Website
+              Design <br />
+              5 Positions Available.
+            </h6>
+          </div>
+          <div class="maap py-5">
+            <h5>Salary</h5>
+            <h6 class="text-dark-emphasis">$30000 Per Anum</h6>
+          </div>
+        </div>
+      </div>
+      <!-- DETAILS SECTION -->
+      <div class="container my-5">
+        <div class="p-4 rounded bg-light">
+          <div class="row mb-3">
+            <div class="col-md-3 fw-bold text-warning">Details</div>
+            <div class="col-md-9">
+              Design & Create highly engaging industry-related content in both
+              photo, gif & video format <br />
+              Publish Posts on various social media channels <br />
+              Promote content on social networks and monitor engagement (e.g.
+              comments and shares) <br />
+              Research industry-related topics <br />
+              Editing audio and sound design on projects <br />
+              Engage in opportunities to develop original content and concepts
+              for web and mobile <br />
+              Create motion graphics and animations using 2D and 3D applications
+              for marketing and promotional usage.
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-3 fw-bold">Requirements</div>
+            <div class="col-md-9">
+              Manage the day-to-day handling of all social media channels such
+              as Linkedin, Facebook, Twitter, Pinterest, Instagram, Tiktok and
+              YouTube, adapting content to suit different channels.
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 fw-bold">Responsibilities</div>
+            <div class="col-md-9">
+              Manage the day-to-day handling of all social media channels such
+              as Linkedin, Facebook, Twitter, Pinterest, Instagram, Tiktok and
+              YouTube, adapting content to suit different channels.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- APPLY NOW SECTION -->
+      <div class="container my-5">
+        <h2 class="fw-bold mb-4">Apply Now</h2>
+
+        <form>
+          <!-- First + Last name -->
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control p-3"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control p-3"
+                placeholder="Last Name"
+              />
+            </div>
+          </div>
+
+          <!-- Email + Mobile -->
+          <div class="row g-3 mb-3">
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control p-3"
+                placeholder="Email Id"
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control p-3"
+                placeholder="Mobile No"
+              />
+            </div>
+          </div>
+
+          <!-- Textarea -->
+          <div class="mb-4">
+            <textarea
+              class="form-control p-3"
+              rows="6"
+              placeholder="Why do you think you are good fit for Ether?"
+            ></textarea>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="btn btn-warning px-4 py-2 fw-semibold">
+            Submit
+          </button>
+        </form>
+      </div>
+      <!-- FOOTER -->
+      <div class="container-fluid py-5 text-white" style="background: #0a2342">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <h4>Finsweet</h4>
+              <p>Bespoke software solutions</p>
+              <div class="d-flex gap-3">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <h6 class="fw-bold">Company</h6>
+              <p class="m-0">About Us</p>
+              <p class="m-0">Careers</p>
+              <p class="m-0">Services</p>
+              <p class="m-0">Blog</p>
+            </div>
+
+            <div class="col-md-3 mb-4">
+              <h6 class="fw-bold">Connect</h6>
+              <p class="m-0">hi@finsweet.com</p>
+              <p class="m-0">+ (123) 456-7890</p>
+            </div>
+
+            <div class="col-md-2 mb-4">
+              <h6 class="fw-bold">Join Newsletter</h6>
+              <input
+                type="email"
+                class="form-control mb-2"
+                placeholder="Type email here"
+              />
+              <button class="btn btn-warning w-100">Subscribe</button>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <small>© All rights reserved – Finsweet</small>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
